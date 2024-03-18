@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #fdd8af;
+  height: 100vh;
 }
 
 header {
@@ -15,11 +16,13 @@ header {
   display: flex;
   justify-content: center;
   flex-basis: 80px;
+  max-height: 100px;
 }
 
 nav {
   display: flex;
   width: 500px;
+  height: 100px;
   justify-content: space-evenly;
 }
 
@@ -73,7 +76,7 @@ nav button:hover {
   gap: 10px;
   justify-content: space-evenly;
   background-color: #fcc586;
-  padding: 40px 0px;
+  padding: 20px 0px;
 }
 
 .dish {
@@ -110,7 +113,7 @@ nav button:hover {
 footer {
   text-align: center;
   font-size: 1.1rem;
-  margin: 8px 0;
+  padding: 8px 0px;
 }
 
 .restaurant-description {
